@@ -1,0 +1,20 @@
+.header {
+  font-size: xx-large;
+  color: white;
+  background: black;
+  text-align: center;
+}
+#pizza2 {
+  padding: 100px;
+}
+#pansize {
+  padding: 100px;
+}
+.container {
+  background-color: gray;
+}
+
+#result {
+  border-width:thick;
+  padding: 50px
+}

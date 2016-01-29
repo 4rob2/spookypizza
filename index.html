@@ -11,47 +11,76 @@
     </head>
   <body>
     <div class="container">
-     <form id="spookypizza">
-       <H1><em>SPOOKY'S PIZZA<em></H1>
-       <div class="form-group">
-         <label for="pizza2">
-           Please select from our sppoktacular pizzas?
-         </label>
-         <select id="pizza2">
+      <form id="spookypizza">
+        <div class="header">
+        <H1><em>SPOOKY'S PIZZA<em></H1>
+        </div>
+        <div class="form-group">
+          <label for="pizza2">
+           Please select from our spooktacular pizzas to build from ($5)?
+          </label>
+          <select id="pizza2">
+           <option>Cheese</option>
+           <option>Thin Crust Cheese</option>
+           <option>Thick Crust Cheese</option>
+
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="pansize">
+            What ghoulish size of pizza does your howling mob desire?
+          </label>
+           <select id="pansize">
+           <option>Family + $2</option>
+           <option>Large< + $1</option>
+           <option>Medium</option>
+         </select><br/>
+        </div>
+        <div class="form-group">
+          <label for="pansize">
+            How many pizzas to feed your Motley Crew?
+          </label>
+           <select id="quantity">
            <option>1</option>
            <option>2</option>
            <option>3</option>
-           <option>4</option>
-           <option>5</option>
-         </select>
-       </div>
-       <div class="form-group">
-         <label for="size">
-           What ghoulish size of pizza does your crew desire?
-         </label>
-         <select id="size">
-           <option>1</option>
-           <option>2</option>
-           <option>3</option>
-           <option>4</option>
-           <option>5</option>
-         </select>
-       </div>
-       div class="form-group">
-         <label for="size">
-           What ghoulish size of pizza does your crew desire?
-         </label>
-         <select id="size">
-           <option>1</option>
-           <option>2</option>
-           <option>3</option>
-           <option>4</option>
-           <option>5</option>
-         </select>
-       </div>
-       <button type="submit" class="btn btn-default">
+         </select><br/>
+        </div>
+            <h6>Frieghtful Delight (choose two toppings! Additional at $1 per topping):<h6>
+            <label class="btn btn-primary">
+            <input id="Pepperoni" type="checkbox" autocomplete="off"> Pepperoni
+            </label> <br/>
+            <label class="btn btn-primary">
+            <input id="Sausage" type="checkbox" autocomplete="off"> Sausage
+            </label><br/>
+            <label class="btn btn-primary">
+            <input id="Canadian Bacon" type="checkbox" autocomplete="off"> Canadian Bacon
+            </label><br/>
+            <label class="btn btn-primary">
+            <input id="Pineapple" type="checkbox" autocomplete="off"> Pineapple
+            </label><br/>
+            <label class="btn btn-primary">
+            <input id="Olives" type="checkbox" autocomplete="off"> Olives
+            </label><br/>
+            <label class="btn btn-primary">
+            <input id= "Green Peppers" type="checkbox" autocomplete="off"> Green Peppers
+            </label><br/>
+            <label class="btn btn-primary">
+            <input id="Green Onion" type="checkbox" autocomplete="off"> Green Onion
+            </label><br/>
+            <label class="btn btn-primary">
+            <input id="Extra Cheese" type="checkbox" autocomplete="off"> Extra Cheese
+            </label><br/>
+          </div>
+
+          </select>
+        </div>
+        <br/>
+        <button type="submit" class="btn btn-default">
          Submit
-       </button>
-     </form>
+       </button><br/>
+      </form>
+      <h4>Your total is:<h4>
+    <ul id="result"> </ul>
   </body>
 </html>
