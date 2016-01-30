@@ -48,7 +48,7 @@ $(document).ready(function() {
         subtotal2 = (substotal2 + 1)
     }
     $("#result") = ((subtotal1 + (subtotal2 - 2)))*(subtotal3);
-    $("#result").append("<li>"+i+"</li>");
+    $("p").text("#result");
   });
 });
 
